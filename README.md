@@ -13,7 +13,7 @@
 
 ## 📖 Executive Summary
 
-The **DroneTV AI Support & Lead Assistant** is a full-stack platform combining an interactive conversational AI chatbot and an enterprise lead management system for DGCA-certified drone pilot training and commercial aerial operations.
+The **VAYUDHARA AERO** is a full-stack platform combining an interactive conversational AI chatbot and an enterprise lead management system for DGCA-certified drone pilot training and commercial aerial operations.
 
 ---
 
