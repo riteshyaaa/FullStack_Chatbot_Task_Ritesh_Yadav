@@ -13,7 +13,7 @@ The **VAYUDHARA AERO** is a full-stack platform combining an interactive convers
 
 ##  Key Features
 
-- **Autonomous AI Chatbot**: Fast, deterministic rule-based intent engine supporting 7 core intents (`services`, `courses`, `contact`, `register`, `student`, etc.), scored keyword matching, and interactive quick-reply chips.
+- **Rule-Based Support Chatbot**: Fast, deterministic rule-based intent engine supporting 7 core intents (`services`, `courses`, `contact`, `register`, `student`, etc.), scored keyword matching, and interactive quick-reply chips.
 - **Dual Lead Capture**: High-contrast modal forms and in-chat lead triage with real-time field validation (Email, Phone, UserType).
 - **Admin Command Center**: Live KPI metrics, status lifecycle tracking (`New` → `Contacted` → `InProgress` → `Closed`), multi-field search/filtering, and CSV export.
 - **Enterprise REST API**: Type-safe Express endpoints powered by Prisma ORM, Zod validation, rate limiting, and Helmet security headers.
@@ -82,7 +82,7 @@ The **VAYUDHARA AERO** is a full-stack platform combining an interactive convers
 ### 1. Repository Setup
 ```bash
 # Clone the repository
-https://github.com/riteshyaaa/FullStack_Chatbot_Task_Ritesh_Yadav.git
+git clone https://github.com/riteshyaaa/FullStack_Chatbot_Task_Ritesh_Yadav.git
 
 # Navigate into project root
 cd FullStack_Chatbot_Task_Ritesh_Yadav
@@ -210,7 +210,7 @@ model Enquiry {
 
 ##  Chatbot Rule Engine & Matching Logic
 
-The DroneTV chatbot uses a transparent, deterministic matching pipeline:
+The VAYUDHARA chatbot uses a transparent, deterministic matching pipeline:
 1. **Input Normalization**: Trims whitespace, strips non-essential punctuation, and lowercases text.
 2. **Exact & Phrase Matching**: Evaluates regular expression patterns for high-confidence intents.
 3. **Keyword Frequency Scoring**: Computes match weight against intent keyword dictionaries.
