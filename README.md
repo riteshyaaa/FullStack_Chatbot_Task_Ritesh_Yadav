@@ -1,23 +1,17 @@
 # VAYUDHARA AERO
+## 🌐 Live Demo
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://www.prisma.io/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
+[![Live Demo](https://img.shields.io/badge/Live-Demo-2563EB?style=for-the-badge)](https://full-stack-chatbot-task-ritesh-yada.vercel.app/)
 
 ---
 
-## 📖 Executive Summary
+## Summary
 
 The **VAYUDHARA AERO** is a full-stack platform combining an interactive conversational AI chatbot and an enterprise lead management system for DGCA-certified drone pilot training and commercial aerial operations.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Autonomous AI Chatbot**: Fast, deterministic rule-based intent engine supporting 7 core intents (`services`, `courses`, `contact`, `register`, `student`, etc.), scored keyword matching, and interactive quick-reply chips.
 - **Dual Lead Capture**: High-contrast modal forms and in-chat lead triage with real-time field validation (Email, Phone, UserType).
@@ -26,7 +20,7 @@ The **VAYUDHARA AERO** is a full-stack platform combining an interactive convers
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -76,7 +70,7 @@ The **VAYUDHARA AERO** is a full-stack platform combining an interactive convers
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - **Node.js**: v18.0.0 or higher
@@ -88,7 +82,7 @@ The **VAYUDHARA AERO** is a full-stack platform combining an interactive convers
 ### 1. Repository Setup
 ```bash
 # Clone the repository
-git clone https://github.com/ritesh-yadav/FullStack_Chatbot_Task_Ritesh_Yadav.git
+https://github.com/riteshyaaa/FullStack_Chatbot_Task_Ritesh_Yadav.git
 
 # Navigate into project root
 cd FullStack_Chatbot_Task_Ritesh_Yadav
@@ -158,7 +152,7 @@ npm run build
 
 ---
 
-## 📡 REST API Reference
+##  REST API Reference
 
 | Method | Endpoint | Description | Query / Body Params |
 |---|---|---|---|
@@ -173,7 +167,7 @@ npm run build
 
 ---
 
-## 🗄️ Database Schema & Prisma Model
+##  Database Schema & Prisma Model
 
 ```prisma
 enum UserType {
@@ -214,7 +208,7 @@ model Enquiry {
 
 ---
 
-## 🧪 Chatbot Rule Engine & Matching Logic
+##  Chatbot Rule Engine & Matching Logic
 
 The DroneTV chatbot uses a transparent, deterministic matching pipeline:
 1. **Input Normalization**: Trims whitespace, strips non-essential punctuation, and lowercases text.
