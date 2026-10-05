@@ -1,4 +1,4 @@
-# DroneTV AI Support & Lead Assistant - REST API Specification
+# VAYUDHARA AERO - REST API Specification
 
 ## 1. Overview & Conventions
 

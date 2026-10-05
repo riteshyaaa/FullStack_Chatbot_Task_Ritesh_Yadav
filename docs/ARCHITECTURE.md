@@ -1,9 +1,9 @@
-# DroneTV AI Support & Lead Assistant - Architecture Document
+# VAYUDHARA AERO - Architecture Document
 
 ## 1. System Overview
 
-The **DroneTV AI Support & Lead Assistant** is a production-grade full-stack web application designed for DroneTV (an innovative drone services and pilot training organization). The system serves two primary functions:
-1. **Rule-Based Intelligent Support & Triage**: Providing interactive, instant, and deterministic answers regarding DroneTV's enterprise drone services, DGCA-certified training courses, registration procedures, and direct team contact.
+The **VAYUDHARA AERO** is a production-grade full-stack web application designed for VAYUDHARA AERO (an innovative drone services and pilot training organization). The system serves two primary functions:
+1. **Rule-Based Intelligent Support & Triage**: Providing interactive, instant, and deterministic answers regarding VAYUDHARA's enterprise drone services, DGCA-certified training courses, registration procedures, and direct team contact.
 2. **Lead & Enquiry Management System**: Capturing validated multi-channel inquiries (from both the landing page enquiry forms and the conversational assistant) and providing an administrator dashboard for enquiry lifecycle management (New → Contacted → In Progress → Closed).
 
 ---
