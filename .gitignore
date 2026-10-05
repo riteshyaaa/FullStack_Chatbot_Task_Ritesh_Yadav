@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# Temporary / Scratchpad
+temp/
+tmp/
+*.tmp
+
+# AI / Tooling / Submission artifacts
+.claude/
+01_Source_Code/
+02_Database_and_Migrations/
+03_API_Documentation_and_Postman/
+04_Chatbot_Engine_and_Rules/
+05_Architecture_and_Design_Docs/
+06_Test_Reports_and_Verification/
+07_Resume/
+assets/
