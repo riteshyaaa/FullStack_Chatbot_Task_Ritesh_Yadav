@@ -19,9 +19,24 @@ export const createApp = (): Application => {
   );
 
   // Cross-Origin Resource Sharing (CORS)
+  const clientOrigins = config.clientUrl
+    ? config.clientUrl.split(',').map((o) => o.trim())
+    : ['http://localhost:5173', 'http://localhost:3000'];
+
   app.use(
     cors({
-      origin: [config.clientUrl, 'http://localhost:5173', 'http://localhost:3000'],
+      origin: (origin, callback) => {
+        if (!origin) return callback(null, true);
+        if (
+          clientOrigins.includes('*') ||
+          clientOrigins.includes(origin) ||
+          origin.includes('localhost') ||
+          origin.endsWith('.vercel.app')
+        ) {
+          return callback(null, true);
+        }
+        return callback(null, true);
+      },
       methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
       allowedHeaders: ['Content-Type', 'Authorization'],
       credentials: true,
